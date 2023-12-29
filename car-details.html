@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the header */
+        header {
+            background-color: #333; /* Dark gray background color */
+            color: #fff;
+            padding: 20px 0; /* Adjusted padding */
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+        }
+
+        .logo h1 {
+            font-size: 2em; /* Increased font size */
+            margin: 0; /* Removed default margin */
+        }
+
+        nav ul {
+            margin-top: 15px; /* Adjusted margin for the navigation links */
+            padding: 0; /* Removed default padding */
+            list-style: none; /* Removed default list style */
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em; /* Increased font size */
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+
+        nav a:hover {
+            color: #ffd700; /* Change color on hover */
+        }
+    </style>
+    <title>Car Details</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Car Market</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="carselling.html">Home</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Contact</a></li>
+                <!-- Add other navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="car-details" class="car-details">
+        <h2>Car Details</h2>
+
+        <div class="car">
+            <img src="https://picsum.photos/800/600" alt="Creta">
+            <h3>Creta</h3>
+            <p>Price: ₹6,00,000</p>
+
+            <!-- Additional details with scrollable area -->
+            <div class="scrollable-details">
+                <ul>
+                    <li>Engine: 1493 - 1498 CC</li>
+                    <li>Fuel Tank Capacity: 50 Liters</li>
+                    <li>Mileage: 14 Kmpl - 18 Kmpl</li>
+                    <li>Dimensions (L*W*H): 4300*1790*1635 mm³</li>
+                    <!-- Add more details as needed -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Add details for other cars as needed -->
+    </section>
+</body>
+</html>

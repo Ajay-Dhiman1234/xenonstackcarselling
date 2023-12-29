@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the header */
+        header {
+            background-color: #333; /* Dark gray background color */
+            color: #fff;
+            padding: 20px 0; /* Adjusted padding */
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+        }
+
+        .logo h1 {
+            font-size: 2em; /* Increased font size */
+            margin: 0; /* Removed default margin */
+        }
+
+        nav ul {
+            margin-top: 15px; /* Adjusted margin for the navigation links */
+            padding: 0; /* Removed default padding */
+            list-style: none; /* Removed default list style */
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em; /* Increased font size */
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+
+        nav a:hover {
+            color: #ffd700; /* Change color on hover */
+        }
+    </style>
+    <title>Car Details</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Car Market</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="carselling.html">Home</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Contact</a></li>
+                <!-- Add other navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="car-details" class="car-details">
+        <h2>Car Details</h2>
+
+        <div class="car">
+            <img src="data:image/jpeg;base64,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" alt="Creta">
+            <h3>Creta</h3>
+            <p>Price: ₹6,00,000</p>
+
+            <!-- Additional details with scrollable area -->
+            <div class="scrollable-details">
+                <ul>
+                    <li>Engine: 1198 CC</li>
+                    <li>Fuel Tank Capacity: 30 Liters</li>
+                    <li>Mileage: 20 Kmpl - 28 Kmpl</li>
+                    <li>Dimensions (L*W*H): 3845*1735*1530 mm³</li>
+                    <!-- Add more details as needed -->
+                </ul>
+            </div>
+        </div>
+
+      
+    </section>
+</body>
+</html>
